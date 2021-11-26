@@ -4,22 +4,23 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview",
-    "mono1": "vite serve src/packages/mono1/ --config ./vite.config.ts"
+    "serve": "vite preview"
   },
   "dependencies": {
+    "@q/design": "^2.1.2",
     "@types/node": "^16.11.6",
     "ant-design-vue": "^2.2.8",
-    "element-plus": "^1.2.0-beta.1",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.9.3",
+    "less": "^4.1.2",
     "sass": "^1.43.4",
     "typescript": "^4.4.3",
     "vite": "^2.6.4",
+    "vite-plugin-html": "^2.1.1",
     "vue-tsc": "^0.3.0"
   }
 }
